@@ -39,7 +39,7 @@ class Client
                     $this->apiKey = $item;
                     break;
                 default:
-                    $config[$key] = $item;
+                    $this->config[$key] = $item;
                     break;
             }
         }
